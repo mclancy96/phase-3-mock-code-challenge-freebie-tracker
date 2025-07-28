@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 2025_07_28_165922) do
   create_table "freebies", force: :cascade do |t|
     t.string "item_name"
     t.integer "value"
+    t.integer "company_id"
+    t.integer "dev_id"
   end
 
 end
